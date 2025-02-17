@@ -1,27 +1,39 @@
 {
-  "name": "game_store",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.6"
-  },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^9",
-    "eslint-config-next": "15.1.6",
-    "@eslint/eslintrc": "^3"
-  }
+	"name": "game_store",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --turbopack",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"test": "vitest"
+	},
+	"dependencies": {
+		"@heroicons/react": "^2.2.0",
+		"clsx": "2.1.1",
+		"next": "15.1.6",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"tailwind-merge": "3.0.1"
+	},
+	"devDependencies": {
+		"@eslint/eslintrc": "^3",
+		"@testing-library/dom": "^10.4.0",
+		"@testing-library/react": "^16.2.0",
+		"@types/node": "^20",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"@vitejs/plugin-react": "^4.3.4",
+		"autoprefixer": "^10.4.20",
+		"daisyui": "^4.12.23",
+		"eslint": "^9",
+		"eslint-config-next": "15.1.6",
+		"jsdom": "^26.0.0",
+		"postcss": "^8",
+		"tailwindcss": "^3.4.1",
+		"typescript": "^5",
+		"vite-tsconfig-paths": "^5.1.4",
+		"vitest": "^3.0.5"
+	}
 }

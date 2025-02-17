@@ -2,20 +2,79 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@layer base {
+	:root {
+		--primary-100: #1a1717;
+		--primary-200: #282525;
+		--primary-400: #3d3a3a;
+		--primary-600: #cdcaca;
+		--primary-800: #d8d5d5;
+		--primary-900: #eae7e7;
+
+		--blue-600: #51d6ff;
+
+		--green-600: #37ff8b;
+
+		--red-600: #a06b9a;
+
+		--background: var(--primary-100);
+		--foreground: var(--primary-900);
+
+		@apply text-sm;
+	}
+
+	/** Typography */
+
+	h1 {
+		@apply text-4xl;
+	}
+	h2 {
+		@apply text-3xl;
+	}
+	h3 {
+		@apply text-2xl;
+	}
+	h4 {
+		@apply text-xl;
+	}
+	h5 {
+		@apply text-lg;
+	}
+	h6 {
+		@apply text-base;
+	}
+
+	@media only screen and (max-width: 768px) {
+		h1 {
+			@apply text-3xl;
+		}
+		h2 {
+			@apply text-2xl;
+		}
+		h3 {
+			@apply text-xl;
+		}
+		h4 {
+			@apply text-lg;
+		}
+		h5 {
+			@apply text-base;
+		}
+		h6 {
+			@apply text-sm;
+		}
+	}
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+	.game-card {
+		transition: scale 0.2s linear, filter 0.2s linear;
+	}
+	.game-card:has(~ .game-card:hover),
+	.game-card:hover ~ .game-card {
+		filter: brightness(0.8) blur(8px);
+	}
+	.game-card:hover {
+		scale: 1.05;
+	}
 }
