@@ -9,6 +9,7 @@ export default function LoadingComponent() {
 				alt=""
 				width={192}
 				height={192}
+				unoptimized
 			/>
 			<HeadingColorizedText>Cargando...</HeadingColorizedText>
 		</section>

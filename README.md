@@ -62,12 +62,17 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - [x] Adding notifications to the cart when it become modified
 - [x] Creating the check component for buying pricing
 - [x] Add a redirect directive from the home route to the games feed
-- [ ] Adding the promotions and discounts to the check
-- [ ] Adding the location import to the check
+- [x] Fix the style of the navigation drawer
+- [x] Fix the style of the the notification badges
+- [x] Add lines background component
+- [x] Adding the promotions and discounts to the check
+- [x] Adding the location import to the check
+- [x] Optimizing the images
 - [ ] Recover the game's information to the json file
-- [ ] Adding the SEO metadata info to the website
 - [ ] Create the landing page
 - [ ] Create the marketing and advertising module
+- [-] Adding the SEO metadata info to the website
+- [-] Adding the breadcrumb (not needed)
 
 ## Fonts
 

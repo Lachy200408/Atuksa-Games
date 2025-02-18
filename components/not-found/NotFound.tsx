@@ -16,7 +16,7 @@ export default function NotFoundComponent({ children, className }: Props) {
 				className,
 			)}
 		>
-			<Image src="/Super-Mario.png" alt="" width={96} height={179.1} />
+			<Image src="/Super-Mario.webp" alt="" width={96} height={179.1} />
 			{children}
 			<div className="max-w-72 grid place-items-center gap-4 rounded-box border border-dashed border-primary-600/25 p-8 my-4">
 				<h4 className="text-center">

@@ -8,7 +8,7 @@ interface Props {
 export default function VerticalSeparator({ className = '' }: Props) {
 	return (
 		<Image
-			src="/Separator.png"
+			src="/Separator.webp"
 			alt="Separator"
 			width={1280}
 			height={6}

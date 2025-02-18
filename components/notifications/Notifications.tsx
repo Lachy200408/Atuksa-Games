@@ -10,11 +10,11 @@ export default function Notifications() {
 	if (!notifications?.length) return null;
 
 	return (
-		<section className="fixed bottom-8 left-1/2 -translate-x-1/2 z-[1000]">
-			<ul className="flex flex-col items-center gap-2">
+		<section className="fixed bottom-8 left-1/2 -translate-x-1/2 z-[1000] w-full px-4">
+			<ul className="flex flex-col items-start gap-2 w-full">
 				{notifications.map(({ notification, id }) => (
 					<li key={id}>
-						<Badge className="justify-between max-w-md text-wrap gap-4">
+						<Badge className="justify-between max-w-2xl text-wrap gap-4 max-lg:rounded-box">
 							{notification}
 							<button
 								onClick={() => removeNotification({ id })}

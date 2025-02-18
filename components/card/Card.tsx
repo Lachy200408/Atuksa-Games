@@ -23,7 +23,7 @@ export default function Card({ id, name, image, price }: Props) {
 	return (
 		<div className="flex flex-col items-center justify-between gap-4 p-6 bg-primary-600/5 backdrop-blur-lg border border-primary-600/25 rounded-xl max-w-xs min-h-[384px] relative overflow-hidden group">
 			<Image
-				src="/GlassBackground.png"
+				src="/GlassBackground.webp"
 				alt="GlassBackground"
 				width={400}
 				height={550}
