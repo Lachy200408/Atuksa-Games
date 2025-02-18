@@ -8,10 +8,31 @@ import { inter } from '@/lib/fonts/fonts';
 import './globals.css';
 import { cn } from '@/lib/utils/cn';
 import Notifications from '@/components/notifications/Notifications';
+import BackgroundLines from '@/components/background-lines/BackgroundLines';
+import { NEXT_PUBLIC_URL } from '@/lib/constants/env-data';
 
 export const metadata: Metadata = {
 	title: SITE_NAME,
 	description: SITE_DESCRIPTION,
+	authors: [
+		{
+			name: 'Lázaro Parra González',
+			url: 'https://lazaroparradev.onrender.com',
+		},
+	],
+	icons: {
+		icon: '/icon.svg',
+		shortcut: '/icon.svg',
+	},
+	category: 'games, ecommerce, shopping',
+	referrer: 'origin',
+	openGraph: {
+		type: 'website',
+		locale: 'es',
+		url: NEXT_PUBLIC_URL,
+		title: SITE_NAME,
+		description: SITE_DESCRIPTION,
+	},
 };
 
 export default function RootLayout({
@@ -22,6 +43,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" className="bg-background text-foreground">
 			<body className={cn('flex flex-col min-h-screen', inter.className)}>
+				<BackgroundLines />
 				<BackgroundIcon />
 				<NotificationsProviders>
 					<Notifications />

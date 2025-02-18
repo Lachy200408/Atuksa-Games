@@ -19,6 +19,11 @@ const nextConfig: NextConfig = {
 			destination: '/games/page/1',
 			permanent: true,
 		},
+		{
+			source: '/games',
+			destination: '/games/page/1',
+			permanent: true,
+		},
 	],
 };
 
