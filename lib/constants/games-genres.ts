@@ -69,7 +69,7 @@ export enum GAME_GENRES {
 	construction = 'construction',
 	sandbox = 'sandbox',
 	driving = 'driving',
-	twod = '2d',
+	twod = 'twod',
 	hackAndSlash = 'hackAndSlash',
 	humor = 'humor',
 	poinAndClick = 'pointAndClick',
