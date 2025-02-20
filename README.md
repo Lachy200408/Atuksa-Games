@@ -74,6 +74,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - [x] Adding the clearCart functionality
 - [x] Restyle the Card image
 - [x] Adding the breadcrumb
+- [x] Adding the notFound page feedBack
 - [ ] Create the landing page
 - [ ] Create the marketing and advertising module
 - [-] Adding the SEO metadata info to the website
