@@ -18,6 +18,7 @@ import {
 	GAMES_LANGS,
 	GAMES_LANGS_DISPLAYABLE,
 } from '@/lib/constants/games-langs';
+import Breadcrumb from '@/components/breadcrumb/Breadcrumb';
 
 interface Props {
 	params: Promise<{ id: string }>;
@@ -52,6 +53,17 @@ export default async function SpecificGamePage({ params }: Props) {
 
 	return (
 		<section className="w-full flex flex-col items-center justify-center gap-4 px-4 py-16">
+			<div className="w-full">
+				<Breadcrumb
+					arrayLinks={[
+						{ href: '/games/page/1', text: 'Juegos' },
+						...gamedata.genres.map((genre) => ({
+							href: `/games/genre/${genre}/page/1`,
+							text: GAME_GENRES_DISPLAYABLE[genre as GAME_GENRES],
+						})),
+					]}
+				/>
+			</div>
 			<picture className="relative my-12 grid gap-8">
 				<div>
 					<Image
