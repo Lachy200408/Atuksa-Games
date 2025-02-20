@@ -8,7 +8,7 @@ import CartFeedback from '../cart-feedback/CartFeedback';
 
 export default function Header() {
 	return (
-		<header className="sticky top-0 left-0 w-full z-50 flex items-center justify-between flex-wrap max-[400px]:gap-x-4 gap-x-16 gap-y-6 py-6 max-[400px]:px-2 px-8 backdrop-blur-lg">
+		<header className="sticky top-0 left-0 w-full z-50 flex items-center justify-between flex-wrap max-[400px]:gap-x-4 gap-x-16 gap-y-6 py-6 max-[400px]:px-2 px-8 backdrop-blur-lg bg-primary-200/50">
 			<figure className="flex items-center gap-2 md:gap-4">
 				<Image
 					src="/Joystick.webp"
