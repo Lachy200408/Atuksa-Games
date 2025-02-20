@@ -517,15 +517,15 @@
 	},
 	{
 		"code": 543,
-		"description": "Lords of the Fallen es un videojuego de rol y acción en tercera persona del tipo «Like Dark Souls» que se caracterizan por ser juegos de rol de fantasía oscura. El jugador toma el papel de uno de los míticos «Cruzados de la Oscuridad» y deberá emprender un viaje para derrotar al Dios Demonio. Recorre los dos reinos, el de los vivos y el de los muertos en esta experiencia de rol frenética, que incorpora batallas contra jefes descomunales, combates rápidos y desafiantes, encuentros con personajes interesante y una narrativa profunda e inmersiva. Dos mundos paralelos para explorar. El reino de los vivos, el cual propone desafíos atroces y el terrorífico reino de los muertos, en el que acechan monstruosas criaturas.",
+		"description": "Lords of The Fallen es un videojuego del género de rol y acción en tercera persona. El juego ha sido comparado con Dark Souls en cuanto a su enfoque táctico lento de juego de combate, con los enemigos y localizaciones difíciles de superar. El jugador toma el papel de Harkyn que desde el principio se puede adaptar a los estilos de combate preferidos por el jugador de entre una gama de diferentes clases, cada una con sus propias especializaciones en armas, armaduras, ciertos hechizos y habilidades. Una clase se determina sobre la base de dos grandes opciones de tres tipos de magia; peleas, el engaño y el consuelo, seguido por la segunda opción de tres conjuntos de armaduras diferentes; guerrero, arquero y clérigo. Las diferentes combinaciones de ambas opciones permiten al jugador elegir cómo quiere jugar con Harkyn desde el principio. El juego está ambientado en un mundo mucho después de la derrota de un dios llamado Adyr que anteriormente gobernó la humanidad con mano de hierro, a manos de tres héroes, un pícaro, un clérigo y un guerrero, que más tarde se conocerían como los Jueces y fueron elevados a la categoría de semidioses . Inusualmente, todos los pecados son castigados, incluso las más pequeñas y mezquinas acciones. Los jugadores asumen el papel de Harkyn, un criminal condenado cuyos pecados son visibles en su rostro, en forma de runas.",
 		"genres": ["action", "adventure", "rol", "fantasy"],
 		"id": "26ba715b-c289-4a0f-b621-d1e9ab657bac",
-		"image": "https://atuksa-catalog.onrender.com/images/webp/lords_of_the_fallen_2023_deluxe_edition.webp",
+		"image": "https://atuksa-catalog.onrender.com/images/webp/the_lords_of_the_fallen.webp",
 		"lang": ["spanish", "english", "french", "italian", "portugues"],
-		"name": "Lords of the Fallen (2023) Deluxe Edition",
+		"name": "Lords of The Fallen",
 		"platform": "pc",
-		"price": 156,
-		"size": 31948.8
+		"price": 34.9,
+		"size": 7147.52
 	},
 	{
 		"code": 544,
@@ -997,15 +997,15 @@
 	},
 	{
 		"code": 583,
-		"description": "The Witcher 2: Assassins of Kings es un titulo de rol y acción y secuela del videojuego The Witcher. El juego contiene varios caminos y decisiones posibles en la historia, así como diferentes finales. Al igual que en el primer videojuego, el jugador toma el control de Geralt de Rivia, uno de los pocos brujos que quedan. Los brujos son seres humanos que han sido mejorados genéticamente y entrenados para matar monstruos desde una edad muy temprana. Poseen poderes especiales, que son distintos en cada uno. Estos incluyen la alquimia, la magia y el manejo de armas como la espada.",
+		"description": "The Witcher: Enhanced Edition Director’s Cut, El RPG del Año ha vuelto – ¡en una Edición Premium que incluye impactante contenido extra! Asume el papel de Geralt, The Witcher, un legendario matador de monstruos que cae en una red de intrigas, ¡mientras lucha contra las fuerzas que quieren dominar el mundo! ¡Toma decisiones determinantes y vive sus consecuencias en un juego que te atrapará en una extraordinaria fábula nunca vista! Representante de la cúspide de la narrativa en juegos de rol, The Witcher difumina la barrera entre el bien y el mal en un mundo donde reina la ambigüedad moral. The Witcher enfatiza la historia y el desarrollo del personaje en un mundo apasionante, e incorpora un sistema de combate en tiempo real de gran profundidad estratégica nunca visto antes en ningún otro juego.",
 		"genres": ["action", "adventure", "rol"],
 		"id": "162971af-2972-4648-b479-4994bb3355ea",
-		"image": "https://atuksa-catalog.onrender.com/images/webp/the_witcher_2_assassins_of_kings_enhanced_edition.webp",
+		"image": "https://atuksa-catalog.onrender.com/images/webp/the_witcher_enhanced_edition.webp",
 		"lang": ["spanishMulti"],
-		"name": "The Witcher 2: Assassins of Kings Enhanced Edition",
+		"name": "The Witcher: Enhanced Edition Director’s Cut",
 		"platform": "pc",
-		"price": 65.5,
-		"size": 13414.4
+		"price": 36.35,
+		"size": 7444.48
 	},
 	{
 		"code": 584,
