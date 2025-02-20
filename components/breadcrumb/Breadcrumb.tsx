@@ -8,18 +8,24 @@ interface Props {
 export default function Breadcrumb({ arrayLinks }: Props) {
 	return (
 		<nav className="flex items-center gap-1.5 flex-wrap text-center text-sm text-primary-600">
-			<Link href="/">
+			<Link
+				href="/"
+				className="text-primary-600 hover:text-primary-900 transition duration-300"
+			>
 				<HomeIcon className="size-6" />
 			</Link>
+			<span>/</span>
 			{arrayLinks.map(({ href, text }, index) => (
-				<Link
-					key={index}
-					href={href}
-					className="text-primary-600 hover:text-primary-900 transition duration-300 flex items-center gap-1.5 flex-nowrap"
-				>
-					<span>{text}</span>
+				<>
+					<Link
+						key={index}
+						href={href}
+						className="text-primary-600 hover:text-primary-900 transition duration-300"
+					>
+						<span>{text}</span>
+					</Link>
 					{index !== arrayLinks.length - 1 && <span>/</span>}
-				</Link>
+				</>
 			))}
 		</nav>
 	);

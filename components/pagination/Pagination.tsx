@@ -23,7 +23,7 @@ export default function Pagination({
 	return (
 		<div className="sticky bottom-16 mx-auto flex items-center justify-center gap-4">
 			<ul className="flex items-center justify-center gap-4 p-2 bg-primary-200/50 border border-primary-600/25 backdrop-blur-lg rounded-full w-max">
-				{+index >= length - 1 && (
+				{length >= 5 && +index >= length - 1 && (
 					<>
 						<li>
 							<Link
@@ -58,7 +58,7 @@ export default function Pagination({
 						</Link>
 					</li>
 				))}
-				{+index < length - 1 && (
+				{length >= 5 && +index < length - 1 && (
 					<>
 						<li>
 							<div className="brightness-100 rounded-full grid place-items-center aspect-square w-10 bg-primary-600/5 border border-primary-600/25 backdrop-blur-lg">
