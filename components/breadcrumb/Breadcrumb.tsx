@@ -16,16 +16,15 @@ export default function Breadcrumb({ arrayLinks }: Props) {
 			</Link>
 			<span>/</span>
 			{arrayLinks.map(({ href, text }, index) => (
-				<>
+				<span key={index} className="flex items-center gap-1.5">
 					<Link
-						key={index}
 						href={href}
 						className="text-primary-600 hover:text-primary-900 transition duration-300"
 					>
 						<span>{text}</span>
 					</Link>
 					{index !== arrayLinks.length - 1 && <span>/</span>}
-				</>
+				</span>
 			))}
 		</nav>
 	);
