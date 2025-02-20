@@ -34,7 +34,7 @@ export default function Card({ id, name, image, price }: Props) {
 				alt={name}
 				width={200}
 				height={275}
-				className="max-w-xs h-auto rounded-md"
+				className="max-w-xs w-[200px] h-[275px] overflow-hidden object-cover object-center rounded-md"
 			/>
 			<h4 className="text-center overflow-hidden text-ellipsis text-nowrap max-w-[200px]">
 				{name}

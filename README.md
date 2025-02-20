@@ -70,9 +70,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - [x] Optimizing the images
 - [x] Recover the game's information to the json file
 - [x] Fix TheWitcher and LordsOfTheFallen games
-- [ ] Adding the game's languages to the page
-- [ ] Adding the cleanCart functionality
-- [ ] Restyle the Card image
+- [x] Adding the game's languages to the page
+- [x] Adding the clearCart functionality
+- [x] Restyle the Card image
 - [ ] Create the landing page
 - [ ] Create the marketing and advertising module
 - [-] Adding the SEO metadata info to the website
