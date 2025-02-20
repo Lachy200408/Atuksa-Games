@@ -26,6 +26,13 @@ export default function CartProvider({ children }: Props) {
 		setCart(cart.filter((id) => id !== gameId));
 	};
 
+	const clearCart = () => {
+		addNotification({
+			notification: 'Se borró el carrito exitosamente',
+		});
+		setCart([]);
+	};
+
 	useEffect(() => {
 		const storedCart = localStorage.getItem('cart');
 		if (storedCart) setCart(JSON.parse(storedCart));
@@ -41,6 +48,7 @@ export default function CartProvider({ children }: Props) {
 				cart,
 				addToCart,
 				removeFromCart,
+				clearCart,
 			}}
 		>
 			{children}
