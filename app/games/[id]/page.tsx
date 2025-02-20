@@ -13,6 +13,7 @@ import { getGameById } from '@/lib/utils/get-games';
 import { cn } from '@/lib/utils/cn';
 import { oswald } from '@/lib/fonts/fonts';
 import HeadingColorizedText from '@/components/heading-colorized-text/HeadingColorizedText';
+import Badge from '@/components/badge/Badge';
 
 interface Props {
 	params: Promise<{ id: string }>;
@@ -106,6 +107,13 @@ export default async function SpecificGamePage({ params }: Props) {
 					? `${(gamedata.size / 1024).toFixed(2)} GB`
 					: `${gamedata.size} MB`}
 			</p>
+			<ul className="flex flex-wrap w-full max-w-3xl gap-2 justify-center items-center">
+				{gamedata.lang.map((lang) => (
+					<li key={lang}>
+						<Badge>{lang}</Badge>
+					</li>
+				))}
+			</ul>
 		</section>
 	);
 }

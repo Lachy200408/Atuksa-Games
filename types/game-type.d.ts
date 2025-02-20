@@ -8,4 +8,5 @@ export interface Game {
 	price: number;
 	size: number;
 	code: number;
+	lang: string[];
 }
