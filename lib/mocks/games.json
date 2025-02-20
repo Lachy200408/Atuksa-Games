@@ -332,8 +332,8 @@
 		"lang": ["spanish"],
 		"name": "Super Cow",
 		"platform": "pc",
-		"price": 155,
-		"size": 31744
+		"price": 0.15,
+		"size": 32
 	},
 	{
 		"code": 528,
@@ -344,8 +344,8 @@
 		"lang": ["spanishMulti"],
 		"name": "Thea: The Awakening",
 		"platform": "pc",
-		"price": 4035,
-		"size": 826368
+		"price": 3.94,
+		"size": 807
 	},
 	{
 		"code": 529,
@@ -356,8 +356,8 @@
 		"lang": ["spanish"],
 		"name": "Un Vecino Infernal",
 		"platform": "pc",
-		"price": 535,
-		"size": 109568
+		"price": 0.52,
+		"size": 107
 	},
 	{
 		"code": 530,
@@ -368,8 +368,8 @@
 		"lang": ["spanish"],
 		"name": "Un Vecino Infernal 2",
 		"platform": "pc",
-		"price": 1060,
-		"size": 217088
+		"price": 1.03,
+		"size": 212
 	},
 	{
 		"code": 531,
@@ -464,8 +464,8 @@
 		"lang": ["spanish", "english", "french", "italian", "deutch"],
 		"name": "MotoGP 2",
 		"platform": "pc",
-		"price": 2760,
-		"size": 565248
+		"price": 2.7,
+		"size": 552
 	},
 	{
 		"code": 539,
@@ -512,8 +512,8 @@
 		"lang": ["spanish"],
 		"name": "Praetorians",
 		"platform": "pc",
-		"price": 2660,
-		"size": 544768
+		"price": 2.6,
+		"size": 532
 	},
 	{
 		"code": 543,
@@ -560,8 +560,8 @@
 		"lang": ["spanishMulti"],
 		"name": "Hitman Codename 47",
 		"platform": "pc",
-		"price": 850,
-		"size": 174080
+		"price": 0.83,
+		"size": 170
 	},
 	{
 		"code": 547,
@@ -572,8 +572,8 @@
 		"lang": ["spanish"],
 		"name": "Hitman 2: Silent Assassin",
 		"platform": "pc",
-		"price": 2185,
-		"size": 447488
+		"price": 2.13,
+		"size": 437
 	},
 	{
 		"code": 548,
@@ -608,8 +608,8 @@
 		"lang": ["spanishMulti"],
 		"name": "GTA 3 – Grand Theft Auto 3",
 		"platform": "pc",
-		"price": 2865,
-		"size": 586752
+		"price": 2.8,
+		"size": 573
 	},
 	{
 		"code": 551,
@@ -632,8 +632,8 @@
 		"lang": ["spanish", "english", "french", "italian", "portugues"],
 		"name": "Eldest Souls",
 		"platform": "pc",
-		"price": 3210,
-		"size": 657408
+		"price": 3.13,
+		"size": 642
 	},
 	{
 		"code": 553,
@@ -908,8 +908,8 @@
 		"lang": ["english"],
 		"name": "Juegos de SNES (Super Nintendo)",
 		"platform": "pc",
-		"price": 1205,
-		"size": 246784
+		"price": 1.18,
+		"size": 241
 	},
 	{
 		"code": 576,
@@ -920,8 +920,8 @@
 		"lang": ["english"],
 		"name": "Juegos de Genesis (Sega)",
 		"platform": "pc",
-		"price": 610,
-		"size": 124928
+		"price": 0.6,
+		"size": 122
 	},
 	{
 		"code": 577,
@@ -956,8 +956,8 @@
 		"lang": ["spanish"],
 		"name": "The Legend of Zelda: Majora’s Mask",
 		"platform": "pc",
-		"price": 160,
-		"size": 32768
+		"price": 0.16,
+		"size": 32
 	},
 	{
 		"code": 580,
@@ -968,8 +968,8 @@
 		"lang": ["spanish"],
 		"name": "The Legend of Zelda: The Ocarina of Time",
 		"platform": "pc",
-		"price": 155,
-		"size": 31744
+		"price": 0.16,
+		"size": 32
 	},
 	{
 		"code": 581,
@@ -1016,8 +1016,8 @@
 		"lang": ["spanishMulti"],
 		"name": "Age of Empires I Gold Edition",
 		"platform": "pc",
-		"price": 1010,
-		"size": 206848
+		"price": 0.99,
+		"size": 202
 	},
 	{
 		"code": 585,
@@ -1028,8 +1028,8 @@
 		"lang": ["spanishMulti"],
 		"name": "Age of Empires II Gold Edition",
 		"platform": "pc",
-		"price": 1560,
-		"size": 319488
+		"price": 1.52,
+		"size": 312
 	},
 	{
 		"code": 586,
