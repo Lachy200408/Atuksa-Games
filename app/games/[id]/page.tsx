@@ -14,6 +14,10 @@ import { cn } from '@/lib/utils/cn';
 import { oswald } from '@/lib/fonts/fonts';
 import HeadingColorizedText from '@/components/heading-colorized-text/HeadingColorizedText';
 import Badge from '@/components/badge/Badge';
+import {
+	GAMES_LANGS,
+	GAMES_LANGS_DISPLAYABLE,
+} from '@/lib/constants/games-langs';
 
 interface Props {
 	params: Promise<{ id: string }>;
@@ -110,7 +114,7 @@ export default async function SpecificGamePage({ params }: Props) {
 			<ul className="flex flex-wrap w-full max-w-3xl gap-2 justify-center items-center">
 				{gamedata.lang.map((lang) => (
 					<li key={lang}>
-						<Badge>{lang}</Badge>
+						<Badge>{GAMES_LANGS_DISPLAYABLE[lang as GAMES_LANGS]}</Badge>
 					</li>
 				))}
 			</ul>
