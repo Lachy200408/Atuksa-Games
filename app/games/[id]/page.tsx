@@ -100,7 +100,12 @@ export default async function SpecificGamePage({ params }: Props) {
 					</li>
 				))}
 			</ul>
-			<p>Tamaño: {gamedata.size} GB</p>
+			<p>
+				Tamaño:{' '}
+				{gamedata.size > 1024
+					? `${(gamedata.size / 1024).toFixed(2)} GB`
+					: `${gamedata.size} MB`}
+			</p>
 		</section>
 	);
 }

@@ -68,7 +68,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - [x] Adding the promotions and discounts to the check
 - [x] Adding the location import to the check
 - [x] Optimizing the images
-- [ ] Recover the game's information to the json file
+- [x] Recover the game's information to the json file
 - [ ] Create the landing page
 - [ ] Create the marketing and advertising module
 - [-] Adding the SEO metadata info to the website
